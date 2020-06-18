@@ -1,0 +1,37 @@
+.point {
+  text-align: center;
+  margin-top: -8px;
+  display: inline-block;
+  font-weight: bold;
+  width: 20px;
+  overflow: visible;
+  cursor: pointer;
+}
+
+.point span {
+  margin-left: -20px;
+}
+
+.step {
+  color: red;
+}
+
+.step .dot {
+  background: red;
+}
+
+.point:first-child {
+  margin-left: -15px;
+}
+
+.point:last-child {
+  margin-right: -15px;
+}
+
+.dot {
+  margin: 0 auto;
+  height: 15px;
+  width: 15px;
+  background: #3a3a3a;
+  border-radius: 100%;
+}

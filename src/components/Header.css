@@ -1,0 +1,13 @@
+header {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 10px;
+  text-align: center;
+}
+
+.sitename {
+  color: #E30000;
+  font-weight: bold;
+  font-size: 64px;
+  text-transform: uppercase;
+}

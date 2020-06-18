@@ -1,0 +1,15 @@
+.timeline {
+  margin: 0 auto;
+  height: 3px;
+  border-radius: 15px;
+}
+
+.timeline-progress {
+  height: 100%;
+  width: 33%;
+}
+
+.points {
+  display: flex;
+  justify-content: space-between;
+}
