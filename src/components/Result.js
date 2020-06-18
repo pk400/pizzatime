@@ -7,14 +7,14 @@ const Result = ({
 }) => {
   let toppings
   switch (pizza.toppings) {
-    case 0:
-      toppings = "radial-gradient(#ED5555 20%, transparent 20%), radial-gradient(#ED5555 20%, transparent 20%)"
-      break
     case 1:
       toppings = "radial-gradient(#278310 20%, transparent 20%), radial-gradient(#278310 20%, transparent 20%)"
       break
     case 2:
       toppings = "radial-gradient(#D5C007 20%, transparent 20%), radial-gradient(#D5C007 20%, transparent 20%)"
+      break
+    default:
+      toppings = "radial-gradient(#ED5555 20%, transparent 20%), radial-gradient(#ED5555 20%, transparent 20%)"
       break
   }
   return (
