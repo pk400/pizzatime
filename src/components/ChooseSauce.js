@@ -1,5 +1,4 @@
 import React from 'react'
-import ChooseCrust from './ChooseCrust'
 
 import Circle from './Circle'
 
